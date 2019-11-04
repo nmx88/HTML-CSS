@@ -1,0 +1,13 @@
+head {
+    color: firebrick;
+}
+header {
+    background-color: whitesmoke;
+    color: lightgreen;
+}
+body {
+    padding: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgreen;
+}
