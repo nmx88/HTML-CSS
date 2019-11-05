@@ -2,13 +2,16 @@ head {
     color: firebrick;
 }
 header {
-    background-color: rgb(0, 0, 70);
+    /*background-color: rgb(0, 0, 70);*/
+    background: url("https://images-assets.nasa.gov/image/PIA15415/PIA15415~orig.jpg");
     color: white;
+    background-size: cover;
 }
 body {
     padding: 50px;
     text-align: center;
     background-color: black;
+    /*background: url("https://images-assets.nasa.gov/image/PIA17563/PIA17563~orig.jpg");*/
     color: white;
     background-size: cover;
 }
@@ -45,5 +48,11 @@ ul
 {
 border: 1px solid orangered;
 text-align: center;
+}
+#main_menu {
+position: fixed;
+bottom: 0;
+top: 0;
+width: auto;
 
 }
