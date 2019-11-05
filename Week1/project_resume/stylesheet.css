@@ -6,11 +6,22 @@ header {
     background: url("https://images-assets.nasa.gov/image/PIA15415/PIA15415~orig.jpg");
     color: white;
     background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+#my_photo {
+padding: 100px;
+border:7px solid orangered;
+margin: 1px;
+
 }
 body {
-    padding: 50px;
+    
     text-align: center;
     background-color: black;
+    background-position: center;
     /*background: url("https://images-assets.nasa.gov/image/PIA17563/PIA17563~orig.jpg");*/
     color: white;
     background-size: cover;
@@ -48,11 +59,4 @@ ul
 {
 border: 1px solid orangered;
 text-align: center;
-}
-#main_menu {
-position: fixed;
-bottom: 0;
-top: 0;
-width: auto;
-
 }
