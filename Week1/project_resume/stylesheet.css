@@ -7,15 +7,10 @@ header {
     color: white;
     background-size: cover;
     background-position: center;
-    height: auto;
-    width: auto;
+    height: 300px;
     position: relative;
-}
-#my_photo {
-padding: 100px;
-border:7px solid orangered;
-margin: 1px;
-
+    margin:auto;
+    
 }
 body {
     
@@ -30,10 +25,13 @@ body {
 display: inline;
 padding: 0px 10px 0px 10px;
 font-family: 'Supermercado One', cursive;
+margin:
 }
 .categ {
     background: rgba(25, 204, 228, 0.5);
     padding: 10px;
+    margin:20px;
+    background-size:cover;
 }
 .catcolor
 {
@@ -43,6 +41,9 @@ h1 {
  color: orangered;
  font-size: 36px;
  font-family: 'Jomolhari', serif;
+}
+#personal_information {
+    padding: 30px 10px 10px 10px;
 }
 a {
 color: yellowgreen;
