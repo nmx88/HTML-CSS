@@ -30,6 +30,9 @@ h3 {
     position: absolute;
     bottom: 0; 
 }
+p {
+    margin: 0px 0px;
+}
 .cat {
     font-family: 'Supermercado One', cursive;
     display: inline;
@@ -65,6 +68,9 @@ color: yellowgreen;
 }
 h2 {
 color: rgb(216, 50, 50);
+}
+ul {
+    list-style-type:none;
 }
 #hobbies
 {
