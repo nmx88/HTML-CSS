@@ -66,9 +66,11 @@ color: yellowgreen;
 h2 {
 color: rgb(216, 50, 50);
 }
-ul
+#hobbies
 {
     list-style-type: none;
+    margin:0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #table1, th, td
@@ -81,4 +83,38 @@ text-align: center;
 margin: 0px auto 0px auto;
 width: 30%;
 padding: 0px 0px 0px 0px;
+}
+/* @media screen and (min-width:480px) {
+    aside{
+        width:33%;
+    }
+} */
+@media screen and (max-width:480px) {
+    .categ {
+        /* list-style-type: none; */
+        padding: 0;
+        position: static;
+        margin: auto;
+        /* width: 100%; */
+        /* position: absolute; */
+        /* bottom: 0;  */
+    }
+    header {
+        /* position: static; */
+        height: auto;
+        position: relative;
+    }
+    .cat {
+        font-family: 'Supermercado One', cursive;
+        display: block;
+        margin: 5px 5px 5px 5px;
+        padding: 5px;
+        position: relative;
+        background-color: blueviolet;
+        }
+    #table1, tr, td, tbody, thead {
+            font-size: 14px;
+        }
+   
+
 }
