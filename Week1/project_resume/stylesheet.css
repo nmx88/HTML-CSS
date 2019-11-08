@@ -25,24 +25,26 @@ h3 {
 }
 .categ {
     list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    background-color: rgba(25, 204, 228, 0.5);
+    margin: 0 auto 15px auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0; 
 }
 .cat {
     font-family: 'Supermercado One', cursive;
-    float: center;
+    display: inline;
+    margin: 0 5px 0 5px;
+    padding: 5px;
+    background-color: blueviolet;
     }
 .catcolor{
    color: rgb(49, 4, 247);
-   display: inline;
+   opacity: 1;
    text-align: center;
-   padding: auto;
    text-decoration: none;
    }
 .catcolor:hover {
-       background-color: rgba(255,255,1,1);
+    background-color: rgba(255,255,1,1);
    }
 .active {
     background-color: red;
@@ -73,4 +75,10 @@ ul
 {
 border: 1px solid orangered;
 text-align: center;
+
+}
+#table1 {
+margin: 0px auto 0px auto;
+width: 30%;
+padding: 0px 0px 0px 0px;
 }
