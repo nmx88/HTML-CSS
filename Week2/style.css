@@ -1,17 +1,20 @@
 section {
     background-size: cover;
+    margin: auto auto;
 }   
 img {
     width: 300px;
     height: 150;
     background-color: white;
-    border: 5px solid lime;
+    /*border: 5px solid lime;*/
     margin: auto;
+    padding: auto;
 }
-img:first-child {
+/* Q: Why it didn't work?*/
+/*img:first-child {
     width:500px;
     height:300px;
-}
+}*/
 p {
     background-color: rgba(3, 2, 2, 0.8)
 }
@@ -19,32 +22,42 @@ body {
     background-color: black;
     color: Red;
     background: url("https://i.imgur.com/qOFuisW.png");
-    background-position: center;
+    /*background-position: center;
     background-size: cover;
+    margin: auto auto;*/
 }
 h1 {
     text-align: center;
     font-family: 'Righteous', cursive;
+    background-color: rgba(0,255,0,0.7);
+    margin: auto;
+    padding: auto;
 }
 h2 {
     color: lime;
     text-align: center;
     font-family: 'Righteous', cursive;
+    margin: auto;
+    padding: auto;
 }
 h3 {
     color: green;
     background-color: rgb(7, 4, 4,0.8);
     font-family: 'Orbitron', sans-serif;
+    margin: auto;
+    padding: auto;
 }
 #grid-flex {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 25px 25px;
-    background-color: rgb(7, 229, 245);
-    padding: 10px;
+    /*background-color: rgb(7, 229, 245)*/
+    padding: 10px 10px 10px 10px;
     background: url("https://i.imgur.com/qOFuisW.png");
     background-position: center;
     background-size: cover;
+    border: 5px solid lime;
+    margin: 0px 0px;
 }
 .grid-item {
  padding: 10px;
@@ -52,7 +65,7 @@ h3 {
  background-color: cyan;
  list-style-type: none;
  text-align: center;
- border: 5px solid greenyellow;
+ border: 5px solid lime;
  border-radius: 0.3rem;
  background: url("https://i.imgur.com/CwqXfuf.jpg");
  background-position: center;
@@ -60,7 +73,43 @@ h3 {
  color: rgb(6, 173, 0);
  font-family: 'Permanent Marker', cursive;
 }
+/* The first grid-item expands on first two columns */
 .grid-item:first-child {
     grid-column: 1 / span 2;
+}
+/*Media Queries*/
+@media screen and (max-width:640px) {
+    #grid-flex {
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-gap: 8px 8px;
+        /*border: 5px solid lime;*/
+        padding: 2px;
+        margin: auto auto;
+    }
+    .grid-item {
+        padding: 2px;
+        width: 100%;
+        border: 5px solid lime;
+        border-radius: 0.3rem;
+    }
+    .grid-item:first-child {
+        grid-column: 1 / span 2;
+        width: 100%;
+    }
+    img {
+        width: 200;
+        height: 150;
+        background-color: white;
+        border: 1px solid lime;
+        margin: auto;
+    }
+
+
+
+
+
+
+
 }
 
