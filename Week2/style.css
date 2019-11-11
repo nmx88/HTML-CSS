@@ -18,7 +18,7 @@ p {
 body {
     background-color: black;
     color: Red;
-    background: url(https://i.imgur.com/qOFuisW.png);
+    background: url("https://i.imgur.com/qOFuisW.png");
     background-position: center;
     background-size: cover;
 }
@@ -42,7 +42,7 @@ h3 {
     grid-gap: 25px 25px;
     background-color: rgb(7, 229, 245);
     padding: 10px;
-    background: url(https://i.imgur.com/qOFuisW.png);
+    background: url("https://i.imgur.com/qOFuisW.png");
     background-position: center;
     background-size: cover;
 }
@@ -54,7 +54,7 @@ h3 {
  text-align: center;
  border: 5px solid greenyellow;
  border-radius: 0.3rem;
- background: url(https://i.imgur.com/CwqXfuf.jpg);
+ background: url("https://i.imgur.com/CwqXfuf.jpg");
  background-position: center;
  background-size: cover;
  color: rgb(6, 173, 0);
