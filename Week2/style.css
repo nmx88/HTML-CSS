@@ -1,0 +1,66 @@
+section {
+    background-size: cover;
+}   
+img {
+    width: 300px;
+    height: 150;
+    background-color: white;
+    border: 5px solid lime;
+    margin: auto;
+}
+img:first-child {
+    width:500px;
+    height:300px;
+}
+p {
+    background-color: rgba(3, 2, 2, 0.8)
+}
+body {
+    background-color: black;
+    color: Red;
+    background: url(https://i.imgur.com/qOFuisW.png);
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+h2 {
+    color: lime;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+h3 {
+    color: green;
+    background-color: rgb(7, 4, 4,0.8);
+    font-family: 'Orbitron', sans-serif;
+}
+#grid-flex {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px 25px;
+    background-color: rgb(7, 229, 245);
+    padding: 10px;
+    background: url(https://i.imgur.com/qOFuisW.png);
+    background-position: center;
+    background-size: cover;
+}
+.grid-item {
+ padding: 10px;
+ width: auto;
+ background-color: cyan;
+ list-style-type: none;
+ text-align: center;
+ border: 5px solid greenyellow;
+ border-radius: 0.3rem;
+ background: url(https://i.imgur.com/CwqXfuf.jpg);
+ background-position: center;
+ background-size: cover;
+ color: rgb(6, 173, 0);
+ font-family: 'Permanent Marker', cursive;
+}
+.grid-item:first-child {
+    grid-column: 1 / span 2;
+}
+
