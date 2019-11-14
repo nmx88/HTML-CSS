@@ -1,9 +1,9 @@
 @media screen and (min-width:576px) and (max-width:992px) {
- #grid-flex {
+ /* #grid-flex {
      grid-template-columns: auto auto auto auto auto auto;
      grid-gap: 1%;
-     }
- .grid-items:first-child {
+     }*/
+ /*.grid-items:first-child {
     grid-column: 1 / span 3;
  }
  .grid-items:nth-child(2) {
@@ -44,5 +44,5 @@
  }
  .grid-items:nth-child(14) {
     grid-area: n;
- }
+ }*/
 }

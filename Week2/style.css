@@ -1,77 +1,67 @@
-section {
-    background-size: cover;
-    margin: auto;
-    padding: auto;
-}   
+
 img {
-    width: 300px;
-    height: 150;
+    width: 100%;
+    /* height: 150; */
     background-color: white;
-    border: 5px solid lime;
-    margin: 0px 0px;
-    padding: 10px 10px 10px 10px;
-    vertical-align: middle;
+    border: 1px solid lime;
+    /* margin: 0px 0px; */
+    /* padding: 10px 10px 10px 10px; */
+    /* vertical-align: middle; */
 }
-/* Q: Why it didn't work?
-img:first-child {
-    width:400px;
-    height:250px;
-    margin:auto;
-    padding: 0px 0px 0px 0px;
-}*/
 p {
     background-color: rgba(3, 2, 2, 0.8);
 }
 body {
+    text-align: center;
     background-color: black;
     color: Red;
     background: url("https://i.imgur.com/qOFuisW.png");
     background-position: center;
     background-size: cover;
-    margin: auto;
-    padding: auto;
+     margin: 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
 }
 h1 {
     text-align: center;
     font-family: 'Righteous', cursive;
     background-color: rgba(0,255,0,0.7);
     /*margin: auto;*/
-    padding: 0px 0px 0px 0px;
-    margin-left: 100%;
-    margin-right: 100%;
-    margin: auto;
+    /* padding: 0px 0px 0px 0px; */
+    /* margin-left: 100%; */
+    /* margin-right: 100%; */
+    /* margin: auto; */
 }
 h2 {
     color: lime;
     text-align: center;
     font-family: 'Righteous', cursive;
-    margin: auto;
-    padding: auto;
+    /* margin: auto; */
+    /* padding: auto; */
 }
 h3 {
     color: rgb(14, 255, 14);
     /*background-color: rgb(7, 4, 4,0.8);*/
     font-family: 'Orbitron', sans-serif;
-    margin: auto;
-    padding: 10px 10px 10px 10px;
+    /* margin: auto; */
+    /* padding: 10px 10px 10px 10px; */
 }
 #grid-flex {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 25px 25px;
     /*background-color: rgb(7, 229, 245)*/
-    padding: 10px 10px 10px 10px;
+    /* padding: 10px 10px 10px 10px; */
     background: url("https://i.imgur.com/qOFuisW.png");
     background-position: center;
     background-size: cover;
-    border: 5px solid lime;
     border-radius: 0.3rem;
-    margin: auto;
+    /* margin: auto; */
 }
 .grid-item {
- padding: auto;
- width: 500px;
- height: 500px;
+ /* padding: auto; */
+ width: 100%;
+ height: 100%;
  background-color: cyan;
  list-style-type: none;
  text-align: center;
@@ -82,12 +72,12 @@ h3 {
  background-size: cover;
  color: rgb(6, 173, 0);
  font-family: 'Permanent Marker', cursive;
- margin: auto;
+ /* margin: auto; */
 }
 /* The first grid-item expands on first two columns */
 .grid-item:first-child {
     grid-column: 1 / span 2;
-    width: auto;
+    width: 100%;
 }
 /*Media Queries Section*/
 @media screen and (min-width:0px) and (max-width:414px) {
@@ -102,58 +92,55 @@ h3 {
         position: center;
     }
     .grid-item {
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
+        /* margin: 0px 0px 0px 0px; */
+        /* padding: 0px 0px 0px 0px; */
         width: 100%;
         border: 1px solid lime;
     }
     .grid-item:first-child {
         grid-column: 1 / span 2;
         width: 100%;
-        margin: 0px 0px 0px 0px;
+        /* margin: 0px 0px 0px 0px; */
 
     }
     img {
-        width: 150;
-        height: 100;
+        width: 100%;
+        /* height: 100; */
         background-color: white;
         border: 0.5px solid lime;
-        margin: auto;
-        padding: 0px 0px 0px 0px;
-    }
+        /* margin: auto; */
+        /* padding: 0px 0px 0px 0px; */
+    /* } */
     h3 {
-        padding: 10px 10px 30px 10px;
+        /* padding: 10px 10px 30px 10px; */
     }
-    h1 {
-        width:20%;
+    /* h1 { */
         /*margin-right: 100%;
         margin-left: 100%;*/
-        padding: 10px 10px 10px 10px;
+        /* padding: 10px 10px 10px 10px; */
     }
      
 }
-@media screen and (min-width:415px) and (max-width: 1366px) {
+@media screen and (min-width:576px) and (max-width:992px) {
     #grid-flex {
-        width:auto;
-        height: auto;
+        width:100%;
+        /* height: auto; */
         grid-template-columns: auto auto auto;
         grid-gap: 11.5px 11.5px;
-        padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 0px;
+        /* padding: 0px 0px 0px 0px; */
+        /* margin: 0px 0px 0px 0px; */
         border: none;
         /*border-spacing:auto;*/
         /*position: center;*/
     }
     .grid-item {
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-        width:auto;
-        height:auto;
+        /* margin: 0px 0px 0px 0px; */
+        /* padding: 0px 0px 0px 0px; */
+        width:100%;
         border: 1px solid lime;
     }
     .grid-item:first-child {
         width:100%;
-        height:100%;
         /*grid-column: 1 / span 2;*/
         /*grid-column-start:1;
         grid-column-end:3;
@@ -162,8 +149,8 @@ h3 {
     .item2 {
         width: 100%;
         height:100%;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
+        /* margin: 0px 0px 0px 0px; */
+        /* padding: 0px 0px 0px 0px; */
     }
     /* comment:exprerimental_code
     .grid-item:first-child,.item2 {
@@ -173,20 +160,19 @@ h3 {
         flex-basis:calc(100%/3);
     }*/
        img {
-        width: 150;
-        height:100;
+        width: 100%;
         background-color: white;
         border: 0.5px solid lime;
         margin: 0px 0px;
         padding: 0px 0px 0px 0px;
     }
     h1 {
-        width:20%;
+        width:100%;
         /*margin-right: 100%;
         margin-left: 100;*/
-        padding: 10px 10px 10px 10px;
+        /* padding: 10px 10px 10px 10px; */
     }
-    h3 {
-        padding: 10px 10px 30px 10px;
-    }
+    /* h3 { */
+        /* padding: 10px 10px 30px 10px; */
+    /* } */
 }
