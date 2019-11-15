@@ -23,6 +23,22 @@ body {
     background-size:cover;
     color: rgb(223, 96, 11);
     margin: 0px 0px 0px 0px;
+    animation: toptobottom 3s 2;
+    position:relative;
+}
+@keyframes toptobottom {
+from {top:1px;}
+to {top:2000px;}
+}
+svg {
+    display: flex;
+    justify-content: flex-start;
+    animation: fly 3.5s infinite;
+    position: relative;
+}
+@keyframes fly {
+    from {left:2px;}
+    to {left:1920px;}
 }
 main {
     width: 100%;
@@ -91,7 +107,18 @@ main {
     margin: 0px 0px 0px 0px;
     padding:0px 0px 0px 0px;
  }
-
+    /* Hover Settings */
+    .grid-item :hover {
+        background-color: yellowgreen; 
+        color: red;
+        font-size: 30px;
+    }
+     h2:hover {
+        background-color: purple;
+        color: limegreen;
+        font-size: 50px;
+    }
+    
 
     /*Media Queries Section*/
 @media screen and (min-width:0px) and (max-width:414px) {
