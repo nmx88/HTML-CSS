@@ -26,9 +26,10 @@ body {
     animation: toptobottom 3s 2;
     position:relative;
 }
+      /*animation*/
 @keyframes toptobottom {
 from {top:1px;}
-to {top:2000px;}
+to {top:1080px;}
 }
 svg {
     display: flex;
@@ -37,8 +38,8 @@ svg {
     position: relative;
 }
 @keyframes fly {
-    from {left:2px;}
-    to {left:1920px;}
+    from {left:0%;}
+    to {left:100%;}
 }
 main {
     width: 100%;
