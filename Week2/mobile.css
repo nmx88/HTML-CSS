@@ -1,4 +1,4 @@
-@media screen and (min-width:0px) and (max-width:414px)
+  @media screen and (min-width:0px) and (max-width:414px)
 {
   #grid-flex {
       /* grid-template-columns: auto auto; */
