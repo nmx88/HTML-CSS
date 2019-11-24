@@ -1,0 +1,268 @@
+body {
+    font-family: 'Ropa Sans', sans-serif;
+}
+#logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#topmenu { background-color: #01689b;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+#top_menu a {
+    color: white;
+    font-size: 20px;
+}
+#top_menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1% 1%;
+    width: 100%;
+    background: url("images/minimumlonen-1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0px 0px 300px;
+    margin:0px 0px 0px 0px;
+}
+h2 {
+    color: #000000;
+}
+    #div3 {
+        text-align: center;
+        background-color: white;
+        width: 80%;
+        padding:0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        align-items:center;
+    }
+#veel {
+    list-style-type: none;
+}
+#veel li:before {
+    content: ">";
+    color:#01689b;
+}
+#veel a {
+    color: #01689b;
+    font-weight: bold;
+}
+.copyright {
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: white;
+    font-size: 10px;
+}
+#card_contain {
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#cards {
+    width:100%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1% 1%;
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+#cards a {
+    color: #01689b;
+    font-weight: bold;
+}
+#cards li {
+    width: 100%;
+    text-align: center;
+}
+#cards a,li,h3 {
+    text-align:center;
+}
+#div4 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#Uitgelicht {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1% 1%;
+    padding:0px 0px 0px 0px;
+    margin-left:10%;
+    margin-right:10%;
+}
+#Uitgelicht h3 {
+    color: #01689b;
+}
+#Uitgelicht div img {
+    width:70%;
+    text-align: center;
+}
+#Uitgelicht div {
+    width: 90%;
+    text-align:center;
+}
+footer {
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #01689b;
+    color: white;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+}
+footer a {
+    color: white;
+}
+footer div {
+    text-align: center;
+}
+@media only screen and (max-width:500px) {
+    #top_menu {
+        list-style-type: none;
+        display: block;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 1%;
+        width: 100%;
+        background: url("images/minimumlonen-1.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 40px 40px 40px 40px;
+        margin:0px 0px 0px 0px;
+    }
+    #ulth2  {
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #lastPara {
+        margin-bottom: 100px;
+    }
+
+    #cards {
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1% 1%;
+        list-style-type: none;
+        margin: 0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+    }
+    #Uitgelicht {
+        /* width: 90%; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1% 1%;
+        /* padding: 500px; */
+        /* margin-left:10%; */
+        /* margin-right:10%; */
+    }
+    footer {
+        width:100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 1% 1%;
+        background-color: #01689b;
+        color: white;
+        padding: 10px 0px 20px 0px;
+        text-align: center;
+    }
+    #Uitgelicht {
+        width: 90%;
+        text-align:center;
+        padding: 10px 0px 10px 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #h2_bottom {
+        margin: 10px 0px 10px 0px;
+        padding:20px 0px 20px 0px;
+    }
+}
+@media only screen and (max-width:800px) {
+    #top_menu {
+        list-style-type: none;
+        display: inline;
+    }
+    main {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 1%;
+        width: 100%;
+        background: url("images/minimumlonen-1.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 40px 40px 40px 40px;
+        margin:0px 0px 0px 0px;
+    }
+    #ulth2  {
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #lastPara {
+        margin-bottom: 100px;
+    }
+
+    #cards {
+        width:100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1% 1%;
+        list-style-type: none;
+        margin: 0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+    }
+    #Uitgelicht {
+        /* width: 90%; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1% 1%;
+        /* padding: 500px; */
+        /* margin-left:10%; */
+        /* margin-right:10%; */
+    }
+    footer {
+        width:100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 1% 1%;
+        background-color: #01689b;
+        color: white;
+        padding: 10px 0px 20px 0px;
+        text-align: center;
+    }
+    #Uitgelicht {
+        width: 90%;
+        text-align:center;
+        padding: 10px 0px 10px 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #h2_bottom {
+        margin: 10px 0px 10px 0px;
+        padding:20px 0px 20px 0px;
+    }
+
+}
